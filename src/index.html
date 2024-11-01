@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Desktop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+
+  <!-- Header Navigasi -->
+  <div class="bg-gray-100 h-16 flex items-center px-6 shadow-md fixed top-0 left-0 w-full z-10">
+    <!-- Logo dan nama aplikasi -->
+    <div class="flex items-center mr-8">
+      <img src="Logo.png" alt="RemindMe Logo" class="h-6 mr-2">
+    </div>
+
+    <!-- Navigasi -->
+    <nav class="flex space-x-6 text-gray-500">
+      <a href="#" class="text-blue-500 font-semibold">Home</a>
+      <a href="#" class="hover:text-blue-500">Features</a>
+      <a href="#" class="hover:text-blue-500">About us</a>
+    </nav>
+
+    <!-- Tombol About App -->
+    <div class="ml-auto">
+      <button class="border border-blue-500 text-blue-500 px-4 py-1 rounded-full hover:bg-blue-500 hover:text-white transition">
+        About App
+      </button>
+    </div>
+  </div>
+
+  <!-- Section Utama -->
+  <div class="pt-20 flex items-center justify-center min-h-screen p-6 bg-gray-50">
+    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Bagian Kiri: Teks dan Tombol Download -->
+      <div class="flex flex-col justify-center space-y-4">
+        <h1 class="text-4xl font-bold text-gray-900 leading-tight">
+          Manage Schedule and <br> Task Easy
+        </h1>
+        <p class="text-gray-600">
+          Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task.
+        </p>
+        <button class="mt-4 bg-blue-500 text-white font-semibold px-6 py-3 rounded-full hover:bg-blue-600 transition">
+          Download App
+        </button>
+      </div>
+      
+      <div class="flex justify-center items-center">
+        <img src="Hero Image.png" alt="Gambar Utama" class="w-full md:w-3/4 lg:w-full xl:w-full rounded-lg shadow-md">
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Section Full Width and Height -->
+  <div class="w-full bg-white py-16 px-4">
+    <div class="w-full max-w-full grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      
+      <!-- Feature 1 -->
+      <div class="text-center">
+        <div class="bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-4">
+          <img src="uim_schedule.png" alt="Icon" class="w-8 h-8" />
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800">Set a better deadline tasks</h3>
+        <p class="text-gray-500 mt-2">You can make your duty deadlines better and more orderly.</p>
+      </div>
+      
+      <!-- Feature 2 -->
+      <div class="text-center">
+        <div class="bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-4">
+          <img src="uim_layer-group.png" alt="Icon" class="w-8 h-8" />
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800">Manage the tasks so easily</h3>
+        <p class="text-gray-500 mt-2">You can manage the deadlines and the schedule becomes easy.</p>
+      </div>
+      
+      <!-- Feature 3 -->
+      <div class="text-center">
+        <div class="bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-4">
+          <img src="ri_notification-fill.png" alt="Icon" class="w-8 h-8">
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800">Wouldn’t miss notifications</h3>
+        <p class="text-gray-500 mt-2">Of course you will always get the tasks and schedule notifications.</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Project Description Section -->
+  <div class="w-full bg-gray-50 py-16 px-6">
+    <div class="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Project Image -->
+      <div class="flex justify-center">
+        <img src="Image.png" alt="Project Task Manager" class="w-full md:w-3/4 lg:w-full rounded-lg shadow-md">
+      </div>
+      
+      <!-- Project Description -->
+      <div class="flex flex-col space-y-4">
+        <h2 class="text-3xl font-semibold text-gray-900">
+          Set up task and schedule <br> with the best features
+        </h2>
+        <p class="text-gray-600">
+          The best feature makes you better, with the latest technology to meet your needs. With features for organizing schedules and leading assignments, it makes managing tasks easier. Get the application now!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Highest Priority Notifications Section -->
+  <div class="w-full bg-gray-50 py-16 px-6">
+    <div class="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Notification Description -->
+      <div class="flex flex-col space-y-4">
+        <h2 class="text-3xl font-semibold text-gray-900">
+          Get the highest priority <br> application notification
+        </h2>
+        <p class="text-gray-600">
+          The best feature makes you better, with the latest technology to meet your needs. Of course, with features for organizing schedules and leading assignments, it makes managing tasks easier. So get the application now!
+        </p>
+      </div>
+      
+      <!-- Notification Image -->
+      <div class="flex justify-center">
+        <img src="Image2.png" alt="Priority Notifications" class="w-full md:w-3/4 lg:w-full rounded-lg shadow-md">
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action Section dengan Lebar Terbatas -->
+<section class="bg-blue-600 py-12 rounded-lg mt-16 mx-4 lg:mx-auto max-w-5xl">
+  <div class="text-center text-white">
+      <h2 class="text-2xl font-semibold mb-4">Download an app now and the various benefits you will get immediately</h2>
+      <div class="flex justify-center space-x-4 mt-6">
+          <!-- Tombol Download App -->
+          <a href="#" class="bg-white text-blue-600 font-semibold py-3 px-6 rounded-full hover:bg-gray-200 transition shadow-lg">
+              <img src="Rectangle 41.png" alt="Ikon Download App" class="inline-block mr-2 h-5 w-5"> <!-- Ikon Download -->
+              Download App
+          </a>
+          <!-- Tombol About App -->
+          <a href="#" class="border border-white text-white font-semibold py-3 px-6 rounded-full hover:bg-blue-600 transition shadow-lg">
+              <img src="Rectangle 4.png" alt="Ikon About App" class="inline-block mr-2 h-5 w-5"> <!-- Ikon About -->
+              About App
+          </a>
+      </div>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="bg-white py-16 mt-16">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <h2 class="text-2xl font-semibold text-gray-800 text-center mb-10">What do they think</h2>
+    
+    <div class="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
+      <!-- User Icons in a Circular Layout (Gambar di sebelah kiri) -->
+      <div class="md:w-1/2 flex justify-center md:justify-start">
+        <img src="Testimonial Img.png" alt="Testimonial" class="w-full max-w-md md:max-w-lg lg:max-w-2xl">
+      </div>
+
+      <!-- Testimonial Content (Teks di sebelah kanan) -->
+      <div class="md:w-1/2 bg-gray-50 p-6 rounded-lg shadow-md">
+        <div class="flex items-center mb-4">
+          <img src="Profile.png" alt="User" class="w-14 h-14 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-900">Samantha Sench</h3>
+            <p class="text-gray-500 text-sm">Student at University</p>
+          </div>
+        </div>
+        <p class="text-gray-600">
+          “Hi, its Samantha. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using.”
+        </p>
+      <img src="Slider.png" alt="Slider">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-white py-12 mt-16 border-t border-gray-200">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+    
+    <!-- Logo and Description -->
+    <div class="flex flex-col space-y-4">
+      <div class="flex items-center space-x-2">
+        <img src="logo1.png" alt="RemindMe Logo" class="h-8">
+        <span class="text-2xl font-bold text-gray-900">Remind<span class="text-blue-500">me</span></span>
+      </div>
+      <p class="text-gray-500 text-sm">
+        Task deadlines and scheduling applications with various benefits and advantages.
+      </p>
+    </div>
+
+    <!-- Sitemaps -->
+    <div>
+      <h3 class="text-lg font-semibold text-gray-800 mb-4">Sitemaps</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li><a href="#" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#" class="hover:text-blue-500">Features</a></li>
+        <li><a href="#" class="hover:text-blue-500">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Advantages -->
+    <div>
+      <h3 class="text-lg font-semibold text-gray-800 mb-4">Advantages</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li><a href="#" class="hover:text-blue-500">Set Task Better</a></li>
+        <li><a href="#" class="hover:text-blue-500">Easy Manage</a></li>
+        <li><a href="#" class="hover:text-blue-500">Get Notification</a></li>
+      </ul>
+    </div>
+
+    <!-- Follow Us -->
+    <div>
+      <h3 class="text-lg font-semibold text-gray-800 mb-4">Follow Us</h3>
+      <div class="flex space-x-4">
+        <a href="#" class="text-blue-500 hover:text-blue-700">
+          <img src="uim_facebook-f.png" alt="Facebook" class="h-6 w-6">
+        </a>
+        <a href="#" class="text-blue-500 hover:text-blue-700">
+          <img src="uim_twitter.png" alt="Twitter" class="h-6 w-6">
+        </a>
+        <a href="#" class="text-blue-500 hover:text-blue-700">
+          <img src="uim_linkedin-alt.png" alt="LinkedIn" class="h-6 w-6">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
